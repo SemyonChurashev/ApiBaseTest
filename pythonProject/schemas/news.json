@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "properties": {
+    "count": {
+      "type": "number"
+    },
+    "next": {},
+    "previous": {},
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "published_date": {
+            "type": "string"
+          },
+          "news_image": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "body",
+          "published_date"
+        ]
+      }
+    }
+  },
+  "required": [
+    "countX",
+    "next",
+    "previous",
+    "results"
+  ]
+}
